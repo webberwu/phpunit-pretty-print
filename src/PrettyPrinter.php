@@ -1,6 +1,6 @@
 <?php
 
-namespace Sempro\PHPUnitPrettyPrinter;
+namespace Webber\PHPUnitPrettyPrinter;
 
 use PHPUnit\Framework\Test;
 use PHPUnit\Framework\TestFailure;

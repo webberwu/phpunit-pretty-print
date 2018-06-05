@@ -1,5 +1,5 @@
 {
-    "name": "sempro/phpunit-pretty-print",
+    "name": "webberwu/phpunit-pretty-print",
     "description": "Prettify PHPUnit output",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sempro\\PHPUnitPrettyPrinter\\": "src/"
+            "Webber\\PHPUnitPrettyPrinter\\": "src/"
         }
     }
 }

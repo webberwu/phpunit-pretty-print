@@ -32,6 +32,7 @@ class PrettyPrinter extends ResultPrinter implements TestListener
 
         // convert snakeCase method name to camelCase
         $testMethodName[1] = str_replace('_', '', ucwords($testMethodName[1], '_'));
+        $testMethodName[1] = explode(' ', $testMethodName[1])[0];
 
         preg_match_all('/((?:^|[A-Z])[a-z]+)/', $testMethodName[1], $matches);
         $testNameArray = array_map('strtolower', $matches[0]);
